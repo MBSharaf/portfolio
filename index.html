@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Sharaf - Portfolio</title>
+</head>
+<body>
+
+<!------------------------- Start OF NavBar ------------------------------->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="user-1.jpg"></a>
+
+            <div class="search-box">
+                <img src="search.png">
+                <input type="text" placeholder="Search">
+            </div>
+
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="index.html" class="active-link" target="_blank"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+                <li><a href="cv.pdf" target="_blank"><i class="fa-brands fa-hive"></i></i><span>My CV</span></a></li>
+                <li><a href="https://github.com/MBSharaf" target="_blank"><i class="fa-brands fa-github"></i><span>Front-End</span></a></li>
+                <li><a href="https://wa.me/+201024549574" target="_blank"><i class="fa-solid fa-comments"></i><span>Messaging</span></a></li>
+                <li><a href="https://www.behance.net/mohamedsharf" target="_blank"><i class="fa-brands fa-behance"></i><span>Graphic </span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                 <img src="user-1.jpg" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+<!------------------------- Profile Drop Down ------------------------------->
+
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="user-1.jpg">
+                    <div>
+                        <h3>Mohamed Sharaf</h3>
+                    
+                    </div>
+                </div>
+                <hr>
+                <a href="https://wa.me/+201024549574" class="Profile-menu-link" target="_blank">
+                    <img src="whatsapp.png">
+                    <p>WhatsApp</p>
+                    <span>></span>
+                </a>
+                <a href="cv.pdf" class="Profile-menu-link" target="_blank">
+                    <img src="download.png">
+                    <p>Download CV</p>
+                    <span>></span>
+                </a>
+                <a href="https://www.linkedin.com/in/mohamed-sharf-a25aa91a7" class="Profile-menu-link" target="_blank">
+                    <img src="linkedin.png">
+                    <p>Linkedin</p>
+                    <span>></span>
+                </a>
+                <a href="https://github.com/MBSharaf" class="Profile-menu-link" target="_blank">
+                    <img src="github.png">
+                    <p>GitHub</p>
+                    <span>></span>
+                </a>
+                <a href="https://www.behance.net/mohamedsharf" class="Profile-menu-link" target="_blank">
+                    <img src="behance.png">
+                    <p>Behance</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+
+<!------------------------- Profile Drop Down ------------------------------->
+    </nav>
+<!------------------------- End OF NavBar ------------------------------->
+<!------------------------- Start OF container ------------------------------->
+
+    <div class="container">
+<!------------------------- Start OF left-sidebar ------------------------------->
+        <div class="left-sidebar">
+            <div class="sidebar-profile-box">
+                <img src="cover-pic.png" width="100%">
+                <div class="sidebar-profile-info">
+                    <img src="user-1.jpg">
+                    <h1>Mohamed Sharaf</h1>
+                    <h3>Web Developer as Front-End & Graphic Designer</h3>
+                    <ul>
+                        <li>Based in <span>Egypt</span></li>
+                        <li>Working As<span>Freelancer</span></li>
+                        <li>Experience<span>1 Year</span></li>
+                    </ul>
+                </div>
+                <div class="sidebar-profile-links">
+                    <a href="cv.pdf"><img src="download.png"> My CV</a>
+                    <a href="https://wa.me/+201024549574" target="_blank"><img src="whatsapp.png">WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="sidebar-activity"  id="sidebarActivity">
+                <h3>Full Projects</h3>
+                <a href="https://mbsharaf.github.io/Linkedin-Sharaf/" target="_blank"><img src="jobs.png"> Sharaf In Project</a>
+                <a href="https://mbsharaf.github.io/BogyTube/" target="_blank"><img src="jobs.png"> Youtube Clone Project</a>
+                <a href="https://mbsharaf.github.io/Social-book/" target="_blank"><img src="jobs.png"> SocialBook Project</a>
+                <a href="https://mbsharaf.github.io/Education-center/" target="_blank"><img src="jobs.png"> Education Center Project</a>
+                <a href="https://mbsharaf.github.io/New-Portfolio/" target="_blank"><img src="jobs.png"> Personal Portfolio</a>
+                <a href="https://mbsharaf.github.io/Foot-Store/" target="_blank"><img src="jobs.png"> Foot Store</a>
+                <a href="https://mbsharaf.github.io/SCE/" target="_blank">Code Editor</a>
+                <h3>Quick Projects</h3>
+                <a href="https://mbsharaf.github.io/Sharaf-Music/" target="_blank"><img src="jobs.png"> Music App</a>
+                <a href="https://mbsharaf.github.io/Calculator/" target="_blank"><img src="jobs.png"> Calculator</a>
+                <a href="https://mbsharaf.github.io/Sharaf---webiste/" target="_blank"><img src="jobs.png"> Simple Portfolio</a>
+                <a href="https://mbsharaf.github.io/SCE/" target="_blank"><img src="jobs.png"> Code Editor</a>
+                <h3>others</h3>
+                <a href="https://www.youtube.com/@mgt7426/videos|"><img src="recent.png" target="_blank"> Motion Graphic</a>
+                <a href="https://www.youtube.com/@mgt7426/videos|"><img src="recent.png" target="_blank"> Branding</a>
+                <a href="cv.pdf"><img src="recent.png" target="_blank"> Account Advisor</a>
+                <div class="discover-more-link">
+                    <a href="https://github.com/MBSharaf">See All in GitHub</a>
+                </div>
+            </div>
+            <p id="showMoreLink" onclick="toggleActivity()">Show More <b>+</b></p>
+        </div>
+<!------------------------- End OF left-sidebar ------------------------------->
+<!------------------------- Start OF main-content ------------------------------->
+        <div class="main-content">
+            <div class="profile-description">
+                <h2>About</h2>
+                <p><b>Hello There</b>,<br><br> My Name is <b>Mohamed Sharaf</b>, 25 Years Old, Working as <b>Front-End</b> Developer for 1 Year as Freelancer,
+                   I worked as <b>Graphic Designer</b> as Freelancer for 1 Year, 
+                   & I working as Account Advisor in <b>Talabat</b>, <b>Vodafone</b> and <b>Egyptpost</b> </p>
+                    <a href="cv.pdf" class="see-more-link">Download CV...</a>
+            </div>
+           
+<!------------------------- Start Of First Post ------------------------------->
+            <div class="post">
+                <div class="profile-description">
+                    <h2>Skills</h2>
+                    <a href="https://github.com/MBSharaf" class="skills-btn">HTML5</a>
+                    <a href="https://github.com/MBSharaf" class="skills-btn">CSS3</a>
+                    <a href="https://github.com/MBSharaf" class="skills-btn">Bootstrap CSS</a>
+                    <a href="https://github.com/MBSharaf" class="skills-btn">Tailwind CSS</a>
+                    <a href="https://github.com/MBSharaf" class="skills-btn">SASS</a>
+                    <a href="https://github.com/MBSharaf" class="skills-btn">JavaScript</a>
+                    <a href="https://github.com/MBSharaf" class="skills-btn">React.JS</a>
+                    <a href="https://github.com/MBSharaf" class="skills-btn">WOW.JS</a>
+                    <a href="https://github.com/MBSharaf" class="skills-btn">Wordpress</a>
+                    <a href="https://github.com/MBSharaf" class="skills-btn">Motion Graphic</a>
+                    <a href="https://github.com/MBSharaf" class="skills-btn">Branding</a>
+                </div>
+                <hr>
+                <div class="profile-description">
+                    <h2>Language</h2>
+                    <a href="#" class="Language-btn">Arabic</a>
+                    <a href="#" class="Language-btn">English</a>
+                    <a href="#" class="Language-btn">German</a>
+                </div>
+            </div>
+<!------------------------- End Of First Post ------------------------------->
+<!------------------------- Start Of Second Post ------------------------------->
+            <div class="sort-by">
+                <hr>
+                <p>Projects: <span>top <img src="down-arrow.png"></span></p>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="user-1.jpg">
+                    <div>
+                        <h1>Mohamed Sharaf</h1>
+                        <small>Web Development as Front-End </small>
+                        <small>SharafIN Project</small>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <p>SharafIN Project is A Clone of Linked IN Website as Front-End, you can see in this projects every function working fine and 
+                        Good Design just similar as Linked IN, I started this Project from the scratch 
+                        so i made the pictures and the icons Using Adobes Apps, <a href="https://mbsharaf.github.io/Linkedin-Sharaf/" target="_blank">Preview the Project</a></p>
+                    <img src="post-image-1.jpeg" width="100%">
+                    <div class="post-satats">
+                    <div>
+                        <img src="thumbsup.png">
+                        <img src="love.png">
+                        <img src="clap.png">
+                        <span class="liked-user">Mostafa AbdElKrim and 75 others more</span>
+                    </div>
+                        <div>
+                            <span>22 Commented &middot; 40 Shares</span>
+                        </div>
+                    </div>
+                    <div class="post-activity">
+                    <div>
+                        <img src="user-1.jpg" class="post-activity-user-icon">
+                        <img src="down-arrow.png" class="post-activity-arrow-icon">
+                    </div>
+                        <div class="post-activity-link">
+                            <img src="like.png">
+                            <span>Like</span>
+                        </div>
+                        <div class="post-activity-link">
+                            <img src="comment.png">
+                            <span>Comment</span>
+                        </div>
+                        <div class="post-activity-link">
+                            <img src="share.png">
+                            <span>Share</span>
+                        </div>
+                        <div class="post-activity-link">
+                            <img src="send.png">
+                            <span>Send</span>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            <!------------------------- End Of Second Post ------------------------------->
+            <!------------------------- Start Of third Post ------------------------------->
+            <div class="post">
+                <div class="post-author">
+                    <img src="user-1.jpg">
+                    <div>
+                        <h1>Mohamed Sharaf</h1>
+                        <small>Web Development as Front-End</small>
+                        <small>Education Center Project</small>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <p>This Project is Template you can use it for other content and it will be perfect for you <a href="https://mbsharaf.github.io/Education-center/" target="_blank">Preview the Project</a></p>
+                        
+                    <img src="post-image-2 .jpeg" width="100%">
+                    <div class="post-satats">
+                    <div>
+                        <img src="thumbsup.png">
+                        <img src="love.png">
+                        <img src="clap.png">
+                        <span class="liked-user">Mostafa AbdElKrim and 75 others more</span>
+                    </div>
+                        <div>
+                            <span>22 Commented &middot; 40 Shares</span>
+                        </div>
+                    </div>
+                    <div class="post-activity">
+                    <div>
+                        <img src="user-1.jpg" class="post-activity-user-icon">
+                        <img src="down-arrow.png" class="post-activity-arrow-icon">
+                    </div>
+                        <div class="post-activity-link">
+                            <img src="like.png">
+                            <span>Like</span>
+                        </div>
+                        <div class="post-activity-link">
+                            <img src="comment.png">
+                            <span>Comment</span>
+                        </div>
+                        <div class="post-activity-link">
+                            <img src="share.png">
+                            <span>Share</span>
+                        </div>
+                        <div class="post-activity-link">
+                            <img src="send.png">
+                            <span>Send</span>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            <!------------------------- End Of Third Post ------------------------------->
+            <!------------------------- Start Of forth Post ------------------------------->
+            <div class="post">
+                <div class="post-author">
+                    <img src="user-1.jpg">
+                    <div>
+                        <h1>Mohamed Sharaf</h1>
+                        <small>Web Development as Front-End</small>
+                        <small>SocialBook Project</small>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <p>Social book is a Clone of Facebook as Front-End, you can toggle it and watch it as Dark or Light <a href="https://mbsharaf.github.io/Social-book/" target="_blank">Preview the Project</a></p>
+                    <img src="post-image-3.jpeg" width="100%">
+                    <div class="post-satats">
+                    <div>
+                        <img src="thumbsup.png">
+                        <img src="love.png">
+                        <img src="clap.png">
+                        <span class="liked-user">Mostafa AbdElKrim and 75 others more</span>
+                    </div>
+                        <div>
+                            <span>22 Commented &middot; 40 Shares</span>
+                        </div>
+                    </div>
+                    <div class="post-activity">
+                    <div>
+                        <img src="user-1.jpg" class="post-activity-user-icon">
+                        <img src="down-arrow.png" class="post-activity-arrow-icon">
+                    </div>
+                        <div class="post-activity-link">
+                            <img src="like.png">
+                            <span>Like</span>
+                        </div>
+                        <div class="post-activity-link">
+                            <img src="comment.png">
+                            <span>Comment</span>
+                        </div>
+                        <div class="post-activity-link">
+                            <img src="share.png">
+                            <span>Share</span>
+                        </div>
+                        <div class="post-activity-link">
+                            <img src="send.png">
+                            <span>Send</span>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+<!------------------------- End Of forth Post ------------------------------->
+
+
+        </div>
+<!------------------------- End OF main-content ------------------------------->
+<!------------------------- Start OF right-sidebar ------------------------------->
+        <div class="right-sidebar">
+            <div class="sidebar-news">
+                <img src="more.png" class="info-icon">
+                <h3>Other Projects</h3>
+                <a href="https://mbsharaf.github.io/New-Portfolio/" target="_blank">Personal Portfolio</a>
+                <span>8d ago &middot; 10,934 readers</span>
+
+                <a href="https://mbsharaf.github.io/Sharaf-Tweets/" target="_blank">Twitter Quats</a>
+                <span>10d ago &middot; 30,934 readers</span>
+
+                <a href="https://mbsharaf.github.io/SCE/" target="_blank">Code Editor</a>
+                <span>20d ago &middot; 9,934 readers</span>
+
+                <a href="https://mbsharaf.github.io/Calculator/" target="_blank">Calculator</a>
+                <span>15d ago &middot; 1,934 readers</span>
+                
+                <a href="https://mbsharaf.github.io/Sharaf-Music/" target="_blank">Music APP</a>
+                <span>12d ago &middot; 8,934 readers</span>
+
+                <a href="https://github.com/MBSharaf" class="read-more-link" target="_blank">Check More Projects</a>
+            </div>
+
+
+            <div class="sidebar-ad">
+                <small>ad &middot; &middot; &middot;</small>
+                <p>master of 5 priciples of web designer</p>
+                <div>
+                    <img src="user-1.jpg">
+                  
+                </div>
+                <b>Working as Freelancer</b>
+                <a href="https://wa.me/+201024549574" class="ad-link" target="_blank">Contact Me</a>
+            </div>
+
+            <div class="sidebar-useful-links">
+                <a href="https://www.facebook.com/MGT3117/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/mgt3117/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/MGT3117" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/mohamed-sharf-a25aa91a7" target="_blank"><i class="fa-brands fa-linkedin"></i> </a>
+                <a href="https://www.behance.net/mohamedsharf" target="_blank"><i class="fa-brands fa-behance"></i></a>
+                <a href="https://github.com/MBSharaf" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.youtube.com/@mgt7426/videos|" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="cv.pdf" class="cv-btn">Download CV</a>
+                <div class="copyright-msg">
+                    <img src="user-1.jpg">
+                    <p>Mohamed Sharaf &#169; 2023. All Right Reserved</p>
+                </div>
+            </div>
+        </div>
+<!------------------------- End OF right-sidebar ------------------------------->
+    </div>
+<!------------------------- End OF container ------------------------------->
+
+
+
+    <script>
+        
+        let profileMenu = document.getElementById("profileMenu");
+
+        function toggleMenu(){
+            profileMenu.classList.toggle("open-menu");
+        }
+
+    </script>
+
+    <script>
+
+         let sideActivity = document.getElementById("sidebarActivity");
+         let moreLink = document.getElementById("showMoreLink");
+
+         function toggleActivity(){
+            sideActivity.classList.toggle("open-activity");
+         }
+        
+    </script>
+</body>
+</html>
